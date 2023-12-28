@@ -10,7 +10,7 @@ const Socials = () => {
       <Link href="/">
         <Image
           src="/instagram.svg"
-          alt="instagram logo"
+          alt="instagram log"
           height={25}
           width={25}
         />
