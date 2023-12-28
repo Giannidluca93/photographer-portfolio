@@ -11,7 +11,7 @@ it("should render 5 links", () => {
 it("should render 4 svgs", () => {
   render(<Socials />);
   const svgs = screen.getAllByRole("img");
-  expect(svgs).toHaveLength(3);
+  expect(svgs).toHaveLength(4);
 });
 
 it("should render an about me link", () => {
