@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Socials = () => {
   return (
-    <div className="w-full flex items-end justify-center space-x-4">
+    <div className="w-full flex items-end justify-center space-x-6 md:space-x-4">
       <Link href="/">
         <Image src="/facebook.svg" alt="facebook logo" height={25} width={25} />
       </Link>
