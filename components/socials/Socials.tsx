@@ -21,7 +21,7 @@ const Socials = () => {
       <Link href="/">
         <Image src="/email.svg" alt="email logo" height={25} width={25} />
       </Link>
-      <Link href="/" className="text-xs/[10px] bg-black text-white p-0.5">
+      <Link href="/about" className="text-xs/[10px] bg-black text-white p-0.5">
         About me
       </Link>
     </div>
