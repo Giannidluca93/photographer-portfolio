@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="flex space-x-8">
+    <div className="flex flex-col lg:flex-row sm:items-center">
       <Image
         src="https://picsum.photos/640/640"
         width={640}
         height={640}
         alt="placeholder image"
       />
-      <div>
+      <div className="p-4">
         <h2 className="text-2xl mb-5">About Me</h2>
         <p className="mb-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore modi
