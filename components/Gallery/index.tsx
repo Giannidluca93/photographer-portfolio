@@ -6,84 +6,98 @@ const imagesPlaceholder = [
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
   {
     src: "https://picsum.photos/120/120",
     alt: "placeholder",
     height: 120,
     width: 120,
+    content: "placeholder",
   },
 ];
 
@@ -93,10 +107,12 @@ const Gallery = () => {
       {imagesPlaceholder.map((image) => {
         return (
           <GalleryImage
+            key={image.src}
             src={image.src}
             alt={image.alt}
             width={image.width}
             height={image.height}
+            text={image.content}
           />
         );
       })}
